@@ -60,3 +60,13 @@ body {
 body > img {
   margin: 0 10px;
 }
+.catalog > a > img {
+  -webkit-transform: scale(1);
+  transform: scale(0.93);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.catalog > a:hover > img {
+  -webkit-transform: scale(0.99);
+  transform: scale(0.99);
+}
