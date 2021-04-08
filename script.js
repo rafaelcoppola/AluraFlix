@@ -11,5 +11,5 @@ var trailersLinks =["https://www.youtube.com/watch?v=8Tk8sqXlogM" , "https://www
 "https://www.youtube.com/watch?v=ONs4_PtakGc" , "https://www.youtube.com/watch?v=HVQWZkd8cDk" , "https://www.youtube.com/watch?v=yAr404wj--Y" , "https://www.youtube.com/watch?v=2SbJCKTX87U&t=4s" , "https://www.youtube.com/watch?v=KkzzyAUJqkY" , "https://www.youtube.com/watch?v=hujU0dw6Erk" , "https://www.youtube.com/watch?v=KvSlvtPnZTo" , "https://www.youtube.com/watch?v=CzawIsb4X2Q" , "https://www.youtube.com/watch?v=JklfACQV6Zs"]
 
 for (var i in listMovies) {
-    document.write('<div class="catalog">' + '<a href= "' + trailersLinks [i] + '"' + 'target="_blank">' + '<img src =' + listMovies[i] + '>' + '</a>' + '<span class="title">' + namesMovies[i] + '</span>' + '</div>')    
+    document.write(`<div class="catalog"> <a href= ${trailersLinks[i]} target="_blank"> <img src = ${listMovies[i]}> </a> <span class="title">${namesMovies[i]}</span> </div>`)    
 }
